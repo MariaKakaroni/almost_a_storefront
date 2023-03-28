@@ -1,0 +1,219 @@
+.footer-desc{
+    display: none;
+}
+.footer-media{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.footer-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.footer-accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.footer-selectors {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.footer-copyrights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.footer-copyrights-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #5F6980;
+
+}
+
+.footer-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px 24px 0px;
+    gap: 16px;
+    background: #F9FAFB;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 32px;
+}
+
+.footer-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+}
+
+.footer-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5F6980;
+
+}
+
+.footer-dropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    gap: 24px;
+    width: 100%;
+    border-bottom: 1px solid #D0D5DD;
+}
+
+.footer-language-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    
+}
+
+.footer-language{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #282828;
+    background-color: unset;
+    border: unset;
+}
+
+@media (min-width: 769px) {
+    .footer-general {
+    background: #F9FAFB;
+    align-items: center;
+    padding: 72px 52px 32px;
+    gap: 72px;
+    }
+
+    .footer-desc-head{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    }
+    .footer-link{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+
+    }
+    .footer-title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #282828;
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 12px;
+    }
+    .footer-column{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+    }
+    .footer-columns{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 120px;
+    }
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top: 1px solid #D0D5DD;
+        padding-top: 24px;
+    }
+    .footer-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 72px 52px 32px;
+        gap: 72px;
+        background: #F9FAFB;
+    }
+    .child{
+        width: 100%;
+    }
+    .footer-mob{
+        display: none;
+    }
+}
