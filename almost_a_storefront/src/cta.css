@@ -1,0 +1,161 @@
+.cta-section-desc{
+    display: none;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid #9D9FA2;
+    border-radius: 12px;
+}
+
+.cta-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    background: #FFFFFF;
+
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 117px 16px;
+    gap: 24px;
+    }
+
+.form{
+    width: 100%;
+}
+
+.cta-header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.4px;
+}
+
+.cta-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #282828;
+}
+
+.input-section{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    border-bottom: 1px solid #D0D5DD;
+    margin-bottom: 12px;
+}
+
+.email-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 8px;
+}
+
+.input-itself{
+    border: none;
+}
+
+.cta-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 2px;
+    width: 100%;
+    background: #282828;
+    border-radius: 6px;
+}
+
+.cta-button-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (min-width: 769px) {
+    .cta-section{
+        display: none;
+    }
+    .cta-section-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 52px;
+        gap: 10px;
+        background: #FFFFFF;
+    }
+    .cta-button-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        color: #282828;
+    }
+    .cta-button{
+        padding: 0px;
+        gap: 2px;
+        width: auto;
+        background-color: #FFFFFF;
+        border: none;
+    }
+    .desc-input{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
+        gap: 8px;
+        border-bottom: 1px solid #D0D5DD;
+        width: 100%;
+    }
+    .input-section{
+        border-bottom: none;
+        margin-bottom: unset;
+    }
+    .box{
+        box-sizing: border-box;
+        border: 1px solid #9D9FA2;
+        border-radius: 12px;
+        width: 100%;
+
+    }
+    .form-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+
+    }
+    .email-input{
+        padding: 13px 0px;
+    }
+}

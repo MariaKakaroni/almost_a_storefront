@@ -1,0 +1,228 @@
+
+.header{
+    padding: 0px 0px 24px;
+}
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navigation-bar-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 11px;
+}
+
+.image-css {  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.text-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 16px;
+    gap: 24px;
+
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #282828;
+
+}
+
+.headerText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.6px;
+    color: #282828;
+}
+
+.badge {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #282828;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    border-bottom: 1px solid #282828;
+}
+
+.branding {
+padding:  8px 16px;
+}
+
+.cart-number{
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.number{
+    padding-top: 3px;
+}
+.ham-desc{
+    display: block;
+}
+
+.elements-desc{
+    display: none;
+}
+.desc-view{
+    display:block;
+}
+.arrows{
+    display: none;
+}
+.desc-icons{
+    display: none;
+}
+@media (min-width: 769px) {
+    .desc-icons{
+        display: block;
+    }
+    .ham-desc{
+        display: none;
+    }
+    .navigation-bar-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+    }
+    .elements-desc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+    }
+    .element-product{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .element{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #282828;
+
+    }
+    .desc-view{
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        align-self: stretch;
+        width: 100%;
+    }
+    .text-button {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 16px;
+        gap: 24px;
+        padding: 0 134px 0 82px ;
+    }
+    .arrows{
+        display: block;
+        height: 52px;
+        left: 24px;
+        right: 0px;
+        top: 324px;
+    }
+    .arrowLeft{
+        vertical-align:middle;
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 28px;
+        top: calc(50% - 52px/2);
+        background: #FFFFFF;
+        z-index: 1;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+        border-radius: 100px;
+    }
+    .arrowRight{
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        right: 28px;
+        top: calc(50% - 52px/2);
+        background: #FFFFFF;
+        z-index: 1;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+        border-radius: 100px;
+    }
+    .arrowLeft-inside{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: calc(50% - 32px/2);
+        top: calc(50% - 32px/2);
+    }
+    .arrowRight-inside{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: calc(50% - 32px/2);
+        top: calc(50% - 32px/2);
+    }
+    .image-css{
+        position: relative;
+        left: 0%;
+        right: 48.89%;
+        top: 0%;
+        bottom: 0%;
+        margin-bottom: 0;
+        width: 736px;
+    }
+    .headerText{
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 62px;
+    }
+}
